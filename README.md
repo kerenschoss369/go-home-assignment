@@ -9,16 +9,9 @@
 
 ## Run
 ```bash
-# first time
 go mod init realtime-cli
-
 go mod tidy
-
 go run main.go
-
-# or build a binary
-go build -o rtcli
-./rtcli
 ```
 
 
